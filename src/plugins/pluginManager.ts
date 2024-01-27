@@ -127,7 +127,7 @@ const updatePlugin = async (plugin: PluginItem) => {
 
 const fetchPlugins = (): Promise<Record<Language, Array<PluginItem>>> => {
   // plugins host
-  const githubUsername = 'LNReader';
+  const githubUsername = 'he0119';
   const githubRepository = 'lnreader-sources';
 
   return fetch(
